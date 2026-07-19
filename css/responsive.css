@@ -1,0 +1,24 @@
+/* Responsive overrides for smaller screens */
+@media(max-width:900px){
+  .hero{padding:5rem 0}
+  .hero-media .illustration{height:300px}
+  .hero-media .blob-1{right:-120px;top:-80px;width:300px;height:300px}
+}
+
+@media(max-width:600px){
+  .container{padding:1rem}
+  .site-header{position:static;border-radius:0;padding:0.6rem}
+  .nav-wrap{flex-direction:column;align-items:flex-start;gap:0.75rem}
+  .hero-title{font-size:1.9rem}
+  .hero-media{order:-1;margin-bottom:1.25rem}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .projects-grid .projects{display:grid;grid-template-columns:1fr;gap:1rem}
+  .proof-card img{height:160px}
+  .portfolio-grid .projects{grid-template-columns:1fr;gap:1rem}
+  .portfolio-grid .project img{height:180px}
+  .company-info{grid-template-columns:1fr;gap:1.25rem}
+  .about-hero{padding:3rem 0 1.5rem}
+  .about-hero h1{font-size:2rem}
+  .about-hero p{max-width:100%}
+  .team{padding:1.5rem}
+}

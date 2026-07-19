@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DUHN Technologies — Intelligent AI Solutions</title>
+  <meta name="description" content="DUHN Technologies builds AI automation, agents, trading bots, Expert Advisors, and custom software for modern businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">DUHN<span>Tech</span></a>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#case-studies">Case Studies</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="cta">Get Started</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-bottom-link"><span>🏠</span><span>Home</span></a>
+    <a href="about.html" class="mobile-bottom-link"><span>👥</span><span>About</span></a>
+    <a href="services.html" class="mobile-bottom-link"><span>🛠️</span><span>Services</span></a>
+    <a href="portfolio.html" class="mobile-bottom-link"><span>📁</span><span>Portfolio</span></a>
+    <button type="button" class="mobile-bottom-link mobile-bottom-menu" id="mobileMenuToggle" aria-label="Open menu" aria-expanded="false"><span>☰</span><span>Menu</span></button>
+  </nav>
+  <div class="mobile-menu-panel" id="mobileMenuPanel" aria-hidden="true">
+    <a href="contact.html">Contact</a>
+    <a href="#case-studies">Case Studies</a>
+    <a href="#team">Team</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#blog">Blog</a>
+    <a href="contact.html" class="btn btn-sm">Get Started</a>
+    <button type="button" class="mobile-menu-close" id="mobileMenuClose">Close</button>
+  </div>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">Building Intelligent AI Solutions That Transform Businesses</h1>
+          <p class="lead">DUHN Technologies builds AI automation, trading systems, Expert Advisors, and scalable software that drives measurable outcomes.</p>
+          <div class="hero-ctas">
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            <a href="portfolio.html" class="btn btn-outline">View Portfolio</a>
+          </div>
+          <div class="hero-badges">
+            <span class="badge">AI</span>
+            <span class="badge">Automation</span>
+            <span class="badge">Trading</span>
+            <span class="badge">Cloud</span>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="illustration" aria-hidden="true">
+            <div id="heroCanvas"></div>
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted technologies -->
+    <section class="techs container">
+      <h2 class="section-title">Powered by Industry-Leading Technologies</h2>
+      <div class="tech-logos">
+        <img src="assets/icons/openai.svg" alt="OpenAI" loading="lazy">
+        <img src="assets/icons/python.svg" alt="Python" loading="lazy">
+        <img src="assets/icons/javascript.svg" alt="JavaScript" loading="lazy">
+        <img src="assets/icons/html5.svg" alt="HTML5" loading="lazy">
+        <img src="assets/icons/css3.svg" alt="CSS3" loading="lazy">
+        <img src="assets/icons/react.svg" alt="React" loading="lazy">
+        <img src="assets/icons/nextjs.svg" alt="Next.js" loading="lazy">
+        <img src="assets/icons/nodejs.svg" alt="Node.js" loading="lazy">
+        <img src="assets/icons/docker.svg" alt="Docker" loading="lazy">
+        <img src="assets/icons/aws.svg" alt="AWS" loading="lazy">
+        <img src="assets/icons/mt5.svg" alt="MT5" loading="lazy">
+        <img src="assets/icons/github.svg" alt="GitHub" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Company introduction -->
+    <section class="company container">
+      <div class="company-grid">
+        <div class="company-text">
+          <h2 class="section-title">Who We Are</h2>
+          <p>DUHN Technologies is a team of engineers, data scientists, and product builders focused on AI-driven automation, custom trading solutions, and cloud-native software for enterprises and startups.</p>
+          <ul>
+            <li>Solve complex automation and data problems</li>
+            <li>Industries: Finance, SaaS, E-commerce, Logistics</li>
+            <li>Security and performance-first engineering</li>
+          </ul>
+        </div>
+        <div class="company-media">
+          <img src="assets/images/company-illustration.jpg" alt="Company illustration" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats container">
+      <div class="stats-grid">
+        <div class="stat"><div class="num" data-target="240">0</div><div class="label">Projects Completed</div></div>
+        <div class="stat"><div class="num" data-target="180">0</div><div class="label">Happy Clients</div></div>
+        <div class="stat"><div class="num" data-target="95">0</div><div class="label">AI Solutions Built</div></div>
+        <div class="stat"><div class="num" data-target="68">0</div><div class="label">Trading Bots Developed</div></div>
+        <div class="stat"><div class="num" data-target="9">0</div><div class="label">Years Experience</div></div>
+        <div class="stat"><div class="num" data-target="22">0</div><div class="label">Countries Served</div></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services container">
+      <h2 class="section-title">Services</h2>
+      <div class="cards-grid">
+        <!-- Many cards: keep concise markup, icons as placeholders -->
+        <article class="service-card">
+          <div class="icon">🤖</div>
+          <h3>AI Automation</h3>
+          <p>Automate complex workflows and scale operations with AI.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">🧠</div>
+          <h3>AI Agents</h3>
+          <p>Intelligent agents to assist customers and operations.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">💬</div>
+          <h3>Custom Chatbots</h3>
+          <p>Context-aware conversational experiences for users.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">📈</div>
+          <h3>Trading Bots</h3>
+          <p>Algorithmic trading and signal-based automation.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">⚙️</div>
+          <h3>MT4/MT5 Expert Advisors</h3>
+          <p>Professional EAs with risk controls and backtesting.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Modern web apps and front-end engineering.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">📱</div>
+          <h3>Mobile Apps</h3>
+          <p>Cross-platform and native mobile solutions.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+        <article class="service-card">
+          <div class="icon">🔗</div>
+          <h3>API Development</h3>
+          <p>Robust and secure APIs for integrations.</p>
+          <a class="btn btn-sm" href="services.html">Learn More</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Why choose -->
+    <section class="why-choose container">
+      <h2 class="section-title">Why Choose DUHN Technologies</h2>
+      <div class="grid-3">
+        <div class="why-card">Experienced Engineers</div>
+        <div class="why-card">Modern Technologies</div>
+        <div class="why-card">Secure Solutions</div>
+        <div class="why-card">Fast Delivery</div>
+        <div class="why-card">Scalable Systems</div>
+        <div class="why-card">24/7 Support</div>
+        <div class="why-card">Transparent Communication</div>
+        <div class="why-card">Client-Focused Development</div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#3B82F6,#8B5CF6)"></div>
+          <h3>AI Trading Platform</h3>
+          <p>High frequency trading system with ML-driven signals.</p>
+          <div class="project-meta">Tech: Python, TensorFlow, Node.js</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#14B8A6,#3B82F6)"></div>
+          <h3>Automation Suite</h3>
+          <p>Enterprise-grade automation for repetitive workflows.</p>
+          <div class="project-meta">Tech: JS, Docker, AWS</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Development Process -->
+    <section class="process container">
+      <h2 class="section-title">Development Process</h2>
+      <ol class="timeline">
+        <li>Discovery</li>
+        <li>Consultation</li>
+        <li>Planning</li>
+        <li>Design</li>
+        <li>Development</li>
+        <li>Testing</li>
+        <li>Deployment</li>
+        <li>Maintenance</li>
+      </ol>
+    </section>
+
+    <!-- Technologies We Use (simplified 2-layer) -->
+    <section id="technologies" class="technologies container">
+      <h2 class="section-title">Technologies We Use</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul class="skill-list"><li>Python (expert)</li><li>JavaScript (ES6+)</li><li>HTML5</li><li>CSS3</li><li>SQL</li><li>C#</li><li>MQL5</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <ul class="skill-list"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React.js</li><li>Next.js</li><li>Vite</li><li>Tailwind CSS</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <ul class="skill-list"><li>Python</li><li>Flask</li><li>Node.js</li><li>REST APIs</li><li>JWT</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Databases</h3>
+          <ul class="skill-list"><li>SQLite</li><li>PostgreSQL</li><li>Supabase</li><li>Prisma ORM</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>AI & ML</h3>
+          <ul class="skill-list"><li>Hugging Face Transformers</li><li>PyTorch</li><li>Qwen, Phi, Mistral</li><li>Fine-tuning LLMs</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Trading & Finance</h3>
+          <ul class="skill-list"><li>MT5 / MQL5</li><li>Trading Bots</li><li>Risk Management</li><li>Signal Generation</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Cloud & Deployment</h3>
+          <ul class="skill-list"><li>Vercel</li><li>AWS</li><li>Docker</li><li>Netlify</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>APIs & Integrations</h3>
+          <ul class="skill-list"><li>REST APIs</li><li>Hugging Face API</li><li>Alpha Vantage</li><li>Telegram Bot API</li></ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & Workflow</h3>
+          <ul class="skill-list"><li>Git & GitHub</li><li>VS Code</li><li>Postman</li><li>npm / pip</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials container">
+      <div class="section-head">
+        <h2 class="section-title">Client Testimonials</h2>
+        <p class="section-subtitle">Trusted by businesses in finance, logistics and software who rely on our AI, automation and trading expertise.</p>
+      </div>
+      <div class="testimonial-carousel">
+        <div class="testimonial-item">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"DUHN delivered a production-ready trading system that outperformed our benchmarks and scaled with our risk controls."</p>
+          <small>— Alex, FinTech Co</small>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Fast, transparent, and deeply knowledgeable about AI workflows. The team helped automate our core operations within weeks."</p>
+          <small>— Priya, Logistics</small>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Expert Advisors built by DUHN improved our portfolio performance and gave us faster, more reliable signal automation."</p>
+          <small>— Marc, Trading Firm</small>
+        </div>
+      </div>
+      <div class="client-logos">
+        <img src="assets/icons/openai.svg" alt="OpenAI logo">
+        <img src="assets/icons/python.svg" alt="Python logo">
+        <img src="assets/icons/aws.svg" alt="AWS logo">
+        <img src="assets/icons/docker.svg" alt="Docker logo">
+        <img src="assets/icons/github.svg" alt="GitHub logo">
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq container">
+      <div class="section-head">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Answers to common questions about our AI, trading and development services.</p>
+      </div>
+      <div class="accordion">
+        <div class="acc-item">
+          <button class="acc-toggle">What services do you specialize in?</button>
+          <div class="acc-panel">We build AI automation, trading bots, Expert Advisors, web and mobile applications, plus API integrations for enterprise workflows.</div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-toggle">How do you protect AI and trading systems?</button>
+          <div class="acc-panel">Security is built in through encrypted data flows, role-based access, backtesting controls, and secure cloud deployment practices.</div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-toggle">Can you integrate with our existing tools?</button>
+          <div class="acc-panel">Yes — we integrate with existing databases, CRMs, broker APIs, web services, and business tools to preserve your workflow.</div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-toggle">What support is available after launch?</button>
+          <div class="acc-panel">We offer maintenance, monitoring, optimization and training plans so your solution stays reliable and evolves as your needs grow.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="articles container">
+      <h2 class="section-title">Latest Articles</h2>
+      <div class="articles-grid">
+        <article class="article-card"><h3>AI for Automation</h3><p>Short excerpt about applying AI to business processes.</p></article>
+        <article class="article-card"><h3>Building Trading Bots</h3><p>Short excerpt about robust trading bot design.</p></article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="contact-cta container">
+      <h2 class="hero-title">Ready to Build Something Amazing?</h2>
+      <div class="hero-ctas"><a href="contact.html" class="btn btn-primary">Start a Project</a><a href="contact.html" class="btn btn-outline">Book a Free Consultation</a></div>
+    </section>
+
+    <!-- Contact preview -->
+    <section class="contact-preview container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div><strong>Email:</strong> contact@duhntech.example</div>
+        <div><strong>Phone:</strong> +1 555-555-5555</div>
+        <div><strong>WhatsApp:</strong> +1 555-555-5555</div>
+        <div><strong>Office:</strong> City, Country</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>DUHN Technologies</h3>
+        <p>AI automation, trading bots, Expert Advisors, and software solutions.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li>AI Automation</li>
+          <li>Trading Bots</li>
+          <li>Web Development</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="socials">
+          <a href="#" aria-label="Twitter" class="social-btn">T</a>
+          <a href="#" aria-label="LinkedIn" class="social-btn">in</a>
+          <a href="#" aria-label="GitHub" class="social-btn">GH</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="copyright">© 2026 DUHN Technologies. All rights reserved.</div>
+      <div class="policies"><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+    </div>
+  </footer>
+
+  <script src="js/counter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

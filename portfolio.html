@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — DUHN Technologies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">DUHN<span>Tech</span></a>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-bottom-link"><span>🏠</span><span>Home</span></a>
+    <a href="about.html" class="mobile-bottom-link"><span>👥</span><span>About</span></a>
+    <a href="services.html" class="mobile-bottom-link"><span>🛠️</span><span>Services</span></a>
+    <a href="portfolio.html" class="mobile-bottom-link"><span>📁</span><span>Portfolio</span></a>
+    <button type="button" class="mobile-bottom-link mobile-bottom-menu" id="mobileMenuToggle" aria-label="Open menu"><span>☰</span><span>Menu</span></button>
+  </nav>
+  <div class="mobile-menu-panel" id="mobileMenuPanel" aria-hidden="true">
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <button type="button" class="mobile-menu-close" id="mobileMenuClose">Close</button>
+  </div>
+
+  <main class="container">
+    <section class="portfolio-hero">
+      <h1>Our Work</h1>
+      <p>Selected projects across AI, trading, automation, and software.</p>
+    </section>
+
+    <section class="portfolio-grid">
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ai">AI</button>
+        <button class="filter" data-filter="trading">Trading</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="automation">Automation</button>
+      </div>
+
+      <div class="projects">
+        <article class="project" data-category="trading">
+          <img src="assets/images/SofFx Bot.jpeg" alt="SofFx Bot" loading="lazy">
+          <h3>SofFx Bot</h3>
+          <p>Automated MT5 trading bot with built-in risk management and execution automation.</p>
+          <div class="project-meta">Trading · MQL5 · Python</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="trading">
+          <img src="assets/images/SofFx 2.jpeg" alt="SofFx 2" loading="lazy">
+          <h3>SofFx 2</h3>
+          <p>Next-gen forex bot platform with enhanced analytics and performance tracking.</p>
+          <div class="project-meta">Trading · MQL5 · Python</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="trading">
+          <img src="assets/images/SofFx Dashboard.jpeg" alt="SofFx Dashboard" loading="lazy">
+          <h3>SofFx Dashboard</h3>
+          <p>Trading analytics dashboard for performance, exposure, and signal monitoring.</p>
+          <div class="project-meta">Trading · React · Node.js</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="ai">
+          <img src="assets/images/SofAi Trade Pilot Dashboard.jpeg" alt="SofAi Trade Pilot Dashboard" loading="lazy">
+          <h3>SofAi Trade Pilot Dashboard</h3>
+          <p>AI-driven trading cockpit displaying live signals, metrics, and automated controls.</p>
+          <div class="project-meta">AI · Python · React</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="ai">
+          <img src="assets/images/SofAI Trade Pilot.jpeg" alt="SofAI Trade Pilot" loading="lazy">
+          <h3>SofAI Trade Pilot</h3>
+          <p>AI trading assistant for strategy selection, execution monitoring, and predictive insights.</p>
+          <div class="project-meta">AI · Python · ML</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="ai">
+          <img src="assets/images/SofAi.jpeg" alt="SofAi" loading="lazy">
+          <h3>SofAi</h3>
+          <p>Custom LLM platform for intelligent automation, chatbots, and AI workflows.</p>
+          <div class="project-meta">AI · Transformers · Python</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="ai">
+          <img src="assets/images/sofhealth Ai.jpeg" alt="SofHealth AI" loading="lazy">
+          <h3>SofHealth AI</h3>
+          <p>Healthcare AI assistant for patient support, triage, and data automation.</p>
+          <div class="project-meta">AI · Python · Automation</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="web">
+          <img src="assets/images/Giwu log store.jpeg" alt="Giwu Log Store" loading="lazy">
+          <h3>Giwu Log Store</h3>
+          <p>Retail inventory platform with sales tracking and logistics dashboard.</p>
+          <div class="project-meta">Web · JavaScript · CSS</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="trading">
+          <img src="assets/images/mt5 indicator.jpeg" alt="MT5 Indicator" loading="lazy">
+          <h3>MT5 Indicator Suite</h3>
+          <p>Custom MT5 indicators with signal overlays, alerts, and chart analytics.</p>
+          <div class="project-meta">Trading · MQL5</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="automation">
+          <img src="assets/images/whatsapp Customer Support Ai.jpeg" alt="WhatsApp Customer Support AI" loading="lazy">
+          <h3>WhatsApp Support AI</h3>
+          <p>Conversational support bot for WhatsApp to automate customer service.</p>
+          <div class="project-meta">Automation · AI · WhatsApp API</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+        <article class="project" data-category="automation">
+          <img src="assets/images/WhatsApp customer Support Ai 2.jpeg" alt="WhatsApp Customer Support AI 2" loading="lazy">
+          <h3>WhatsApp Support AI 2</h3>
+          <p>Advanced WhatsApp chatbot with multi-step flows and customer support automation.</p>
+          <div class="project-meta">Automation · AI · APIs</div>
+          <a class="btn btn-sm" href="#">View Case Study</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="copyright">© 2026 DUHN Technologies</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
