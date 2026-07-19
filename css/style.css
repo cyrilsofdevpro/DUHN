@@ -93,6 +93,23 @@
   .team{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:2rem;border-radius:18px;box-shadow:0 20px 60px rgba(2,6,23,0.4);margin-bottom:2rem}
   .team h2{margin-top:0;color:#fff}
   .team p{margin:0;color:rgba(230,238,248,0.78);line-height:1.8}
+  .about-overview{padding:0 0 1.5rem}
+  .about-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
+  .about-card,.process-step,.team-card,.case-card{background:linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.02));padding:1.35rem;border-radius:18px;box-shadow:0 16px 45px rgba(2,6,23,0.25)}
+  .about-card h2,.process-step h3,.team-card h3,.case-card h3{margin-top:0;color:#fff}
+  .about-card p,.process-step p,.team-card p,.case-card p{color:rgba(230,238,248,0.8);line-height:1.8}
+  .about-card ul{margin:0.8rem 0 0;padding-left:1rem;color:rgba(230,238,248,0.8);display:grid;gap:0.45rem}
+  .pill-list{display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:1rem}
+  .pill{padding:0.45rem 0.7rem;border-radius:999px;background:rgba(255,255,255,0.06);font-size:0.9rem;color:#E6EEF8}
+  .about-stats{padding:1rem 0 2rem}
+  .process-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:1rem}
+  .team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1rem}
+  .case-studies{padding:2rem 0 3rem}
+  .case-study-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1.2rem}
+  .case-tag{display:inline-block;margin-bottom:0.7rem;padding:0.36rem 0.62rem;border-radius:999px;background:rgba(59,130,246,0.16);color:#8FD3FF;font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em}
+  .tech-stack{display:flex;flex-wrap:wrap;gap:0.45rem;list-style:none;padding:0;margin:1rem 0 0}
+  .tech-stack li{padding:0.38rem 0.6rem;border-radius:999px;background:rgba(255,255,255,0.06);font-size:0.82rem;color:var(--muted)}
+  .about-cta{text-align:center;padding:0.5rem 0 0}
   .services .cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem}
   .service-card{background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01));padding:1.4rem;border-radius:14px;backdrop-filter:blur(10px);transition:transform .28s cubic-bezier(.16,.8,.4,1),box-shadow .28s}
   .service-card:hover{transform:translateY(-10px);box-shadow:0 20px 60px rgba(2,6,23,0.6)}
@@ -151,6 +168,7 @@
     .stats-grid{grid-template-columns:repeat(2,1fr)}
     .proofs-grid{grid-template-columns:repeat(2,1fr)}
     .portfolio-grid .projects{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .about-grid,.team-grid,.case-study-grid,.process-grid{grid-template-columns:repeat(2,1fr)}
   }
 
   @media(max-width:600px){
@@ -162,6 +180,7 @@
     .projects-grid .projects{display:grid;grid-template-columns:1fr;gap:1rem}
     .proof-card img{height:160px}
     .hero-media .illustration{height:260px}
+    .about-grid,.team-grid,.case-study-grid,.process-grid{grid-template-columns:1fr}
   }
 
   /* Mobile improvements */
@@ -211,7 +230,6 @@
 
   .stats-grid{grid-template-columns:repeat(2,1fr)}
   .proofs-grid{grid-template-columns:repeat(2,1fr)}
-}
 @media(max-width:600px){
   .grid-3{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr}
